@@ -1,0 +1,62 @@
+
+*{
+  font-family: museo,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+}
+body{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  
+}
+a {
+  text-decoration: none;
+}
+img:hover {
+  filter: brightness(70%);
+}
+h2{
+  line-height: 1.4;
+  color: rgb(72, 72, 72);
+}
+h2:hover{
+  color:rgb(230, 0, 18);
+}
+h3:hover{
+  color:rgb(230, 0, 18);
+}
+
+.readmore{
+   color:rgb(230, 0, 18);
+   border-bottom: 2px  solid rgb(230, 0, 18);
+   font-weight: 700;
+   display: flex;
+   flex-direction: column;
+}
+.readmore:hover{
+  color: rgb(181, 27, 39);
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
